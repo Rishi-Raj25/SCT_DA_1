@@ -1,18 +1,28 @@
 # Superstore Sales Analysis
 
-An Excel-based sales analytics project built using the Sample Superstore dataset. The goal is to turn transaction-level sales data into a clear dashboard that highlights performance across products, regions, customer segments, and time.
+An Excel-based sales analytics project built using the Sample Superstore dataset. This project turns transaction-level sales data into an executive dashboard highlighting performance across products, regions, customer segments, and time.
+
+## Dashboard preview
+
+![Superstore Sales Executive Dashboard](SuperStore%20Sales%20Dashboard%20Preview.png)
+
+## Project files
+
+- [Download the Excel dashboard workbook](superstore%20dashboard1.xlsx)
+- [View the dashboard screenshot](SuperStore%20Sales%20Dashboard%20Preview.png)
 
 ## Project overview
 
-This project was completed as part of a Data Analytics internship assignment. It focuses on preparing the dataset, summarising sales with PivotTables, visualising trends, and communicating business observations through an Excel dashboard.
+Completed as part of a Data Analytics internship assignment. The work focuses on preparing the dataset, summarising sales with PivotTables, visualising trends, and communicating business observations through an Excel dashboard.
 
-## Dashboard
+## Dashboard components
 
 The dashboard includes four headline KPIs and five analysis views:
+- Total sales, total orders, customers, and average order value
 - Revenue by product category
 - Revenue by region
 - Revenue by subcategory
-- Monthly sales trends
+- Monthly sales trend (January 2015–December 2018)
 - Revenue by customer segment
 
 ## Key observations
@@ -33,15 +43,11 @@ The dashboard includes four headline KPIs and five analysis views:
 
 ## Dataset
 
-The project uses the [Superstore Sales dataset on Kaggle](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting).
+[Superstore Sales dataset on Kaggle](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting).
 
-## Important data limitation
+## Data limitation and currency note
 
-The supplied dataset contains sales values but does not include profit or cost fields. Therefore, this dashboard analyses sales performance only; it does not make claims about profitability.
-
-## Project file
-
-The completed Excel workbook will be available in this repository as `Superstore_Sales_Dashboard.xlsx`.
+The supplied dataset includes sales values but does not include profit or cost fields. Therefore, this dashboard analyses sales performance only and does not make claims about profitability. The workbook's displayed currency formatting should be interpreted as a presentation format; verify the dataset's original currency before treating the ₹ symbol as the source currency.
 
 ---
 
